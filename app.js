@@ -53,12 +53,6 @@ for (const btn of allBtn) {
         event.target.parentNode.style.backgroundColor = "gray";
 
         
-        
-        
-        
-        
-        
-        
         //update budget
         const budget = getConvertedValue("budget");
         document.getElementById("budget").innerText = budget - parseInt(price);
