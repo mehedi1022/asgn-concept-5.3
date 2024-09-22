@@ -87,11 +87,6 @@ for (const btn of allBtn) {
     })
 }
 
-
-
-
-
-
 function updateGrandTotal(status) {
     const totalCost = getConvertedValue("total-cost");
     if (status == undefined) {
